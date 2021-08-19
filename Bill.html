@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Condiment&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="BillCSS.css">
+    <title>Ahmed's Kitchen</title>
+</head>
+
+<body>
+    <header>
+        <p id="header-title">Kitchen</p>
+        <div class="menu-list">
+            <ul id="menu-container">
+                <li class="menu-opt"><a href="#starters-menu"> Starters</a></li>
+                <li class="menu-opt"> <a href="#course-menu"> Main Course </a></li>
+                <li class="menu-opt"> <a href="#drinks-menu"> Drinks </a></li>
+                <li id="myCart"><a href="MyCart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div id="starters-menu">
+        <h3>Starters</h3>
+        <div id="menu-list">
+            <div class="menu-opt">
+                <img src="pic1.jpg" alt="">
+                <p class="name">Cheese Sticks</p>
+                <p id="cheeseStickPrice" style="font-size: 16px; font-weight: 700;">PKR. 400</p>
+                <button class="cheeseStick" value="400">Add</button>
+            </div>
+            <div class="menu-opt">
+                <img src="pic2.jpg" alt="">
+                <p class="name">Kebab Sticks</p>
+                <p id="kebabStickPrice" style="font-size: 16px; font-weight: 700;">PKR. 400</p>
+                <button id="addKebabStick" value="400">Add</button>
+            </div>
+            <div class="menu-opt">
+                <img src="pic3.jpg" alt="">
+                <p class="name">Oven Baked Wings</p>
+                <p id="wingsPrice" style="font-size: 16px; font-weight: 700;">PKR. 280</p>
+                <button id="addWings" value="280">Add</button>
+            </div>
+            <div class="menu-opt">
+                <img src="pic4.jpg" alt="">
+                <p class="name">Calzone Chunks</p>
+                <p id="chunksPrice" style="font-size: 16px; font-weight: 700;">PKR. 600</p>
+                <button id="addChunks" value="600">Add</button>
+            </div> 
+        </div>
+    </div>
+
+    <hr class="menu-divider">
+
+    <div id="course-menu">
+        <h3>Main Course</h3>
+        <div id="courseMenu-list">
+            <div class="courseMenu-opt">
+                <img src="pic5.jpg" alt="">
+                <p class="name">Chicken Fajita</p>
+                <p id="chickenFajitaPrice" style="font-size: 16px; font-weight: 700;">From PKR. 350</p>
+                <button id="addChickenPizza" value="350">Add</button>
+            </div>
+            <div class="courseMenu-opt">
+                <img src="pic6.jpg" alt="">
+                <p class="name">Chicken Tandoori</p>
+                <p id="chickenTandooriPrice" style="font-size: 16px; font-weight: 700;">From PKR. 350</p>
+                <button id="addTandooriPizza" value="350">Add</button>
+            </div>
+            <div class="courseMenu-opt">
+                <img src="pic7.jpg" alt="">
+                <p class="name">Pepperoni Pizza</p>
+                <p id="pepperoniPizzaPrice" style="font-size: 16px; font-weight: 700;">From PKR. 350</p>
+                <button id="addPepperoniPizza" value="350">Add</button>
+            </div>
+            <div class="courseMenu-opt">
+                <img src="pic8.png" alt="">
+                <p class="name">Regular Pizza Deal</p>
+                <p id="regPizzaDealPrice" style="font-size: 16px; font-weight: 700;">PKR. 850</p>
+                <button id="addRegDeal" value="850">Add</button>
+            </div>
+            
+            <div class="courseMenu-opt" style="position: relative; top: 60px;">
+                <img src="pic9.jpg" alt="">
+                <p class="name">Roasted Platter</p>
+                <p id="platterPrice" style="font-size: 16px; font-weight: 700;">PKR. 600</p>
+                <button id="addPlatter" value="600">Add</button>
+            </div>
+            <div class="courseMenu-opt" style="position: relative; top: 60px;">
+                <img src="pic10.jpg" alt="">
+                <p class="name">Euro Sandwich</p>
+                <p id="sandwichPrice" style="font-size: 16px; font-weight: 700;">PKR. 500</p>
+                <button id="addSandwich" value="500">Add</button>
+            </div>
+            <div class="courseMenu-opt" style="position: relative; top: 60px;">
+                <img src="pic11.png" alt="">
+                <p class="name">Super Deal 1</p>
+                <p id="dealOnePrice" style="font-size: 16px; font-weight: 700;">PKR. 500</p>
+                <button id="addDealOne" value="500">Add</button>
+            </div>
+            <div class="courseMenu-opt" style="position: relative; top: 60px;">
+                <img src="pic12.png" alt="">
+                <p class="name">Super Deal 2</p>
+                <p id="dealTwoPrice" style="font-size: 16px; font-weight: 700;">PKR. 640</p>
+                <button id="addDealTwo" value="640">Add</button>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <hr class="menu-divider2">
+  
+    <div id="drinks-menu">
+        <h3>Drinks</h3>
+        <div id="drinksMenu-list">
+            <div class="drinks-opt">
+                <img src="pic13.jpg" alt="">
+                <p class="name">Mint Margarita</p>
+                <p id="mintMarPrice" style="font-size: 16px; font-weight: 700;">PKR. 250</p>
+                <button id="addMintDrink" value="250">Add</button>
+            </div>
+            <div class="drinks-opt">
+                <img src="pic14.jpg" alt="">
+                <p class="name">Fruit Punch</p>
+                <p id="fruitPunchPrice" style="font-size: 16px; font-weight: 700;">PKR. 300</p>
+                <button id="addPunchDrink" value="300">Add</button>
+            </div>
+            <div class="drinks-opt">
+                <img src="pic15.jpg" alt="">
+                <p class="name">Milkshakes</p>
+                <p id="milkshakePrice" style="font-size: 16px; font-weight: 700;">From PKR. 350</p>
+                <button id="addMilkshake" value="350">Add</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="pay">
+        <button> <a href="MyCart.html" style="color:wheat;"> Checkout </a></button>
+    </div>
+    
+
+    <footer></footer>
+
+
+
+
+    <script src="BillJS.js"></script>
+</body>
+
+</html>

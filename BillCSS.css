@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: #ffcb04;
+    height: 130px;
+    
+}
+
+header #myCart{
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+
+
+
+#header-title{
+    font-family: 'Condiment', cursive;
+    text-decoration: underline;
+    font-size: 50px;
+    /* transform: rotate(); */
+    position: relative;
+    width: 190px;
+    margin: auto;
+    top: 15px;
+    transform: rotate(-5deg);
+}
+
+header .menu-list{
+    margin-top: 17px;
+    margin-left: 60px;
+}
+
+header .menu-list #menu-container li{
+    display: inline;
+    font-size: 23px;
+    font-weight: 700;
+    
+
+}
+
+header .menu-list #menu-container li a{
+    color: white;
+    padding: 0px 12px;
+    font-family: 'Yellowtail', cursive;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+
+}
+
+header .menu-list #menu-container li a:hover{
+    background-color: white;
+    color: #ffcb04;
+    border-radius: 3px;
+
+}
+
+header .menu-list #menu-container #myCart a i:hover{
+    color: rgb(212, 20, 20);
+    transition: all 0.5s;
+}
+
+header .menu-list #menu-container #myCart a:hover{
+    background-color: transparent;
+    transition: all 0.5s;
+    
+}
+
+
+#starters-menu{
+    font-family: 'Roboto', sans-serif;
+    
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+#starters-menu h3{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#starters-menu #menu-list{
+    
+    display: flex;
+    height: 320px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#starters-menu #menu-list .menu-opt{
+    
+    width: 22%;
+    background-color: rgba(236, 236, 236, 0.726);
+    border-radius: 8%;
+    
+}
+#starters-menu #menu-list .menu-opt img{
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#starters-menu #menu-list .menu-opt p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+#starters-menu #menu-list .menu-opt button{
+    /* margin-left: 65px; */
+    margin-left: 3.6em;
+    /* margin-top: 10px; */
+    margin-top: 0.5em;
+    padding: 0.5em 3.1em;
+    /* padding: 10px 60px; */
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(212, 20, 20);
+    color: white;
+    font-weight: bold;
+    /* font-size: 18px; */
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.1s;
+    
+}
+
+.menu-divider{
+    position: relative;
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    top: 70px;
+}
+
+.menu-divider2{
+    position: relative;
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    top: 480px;
+}
+
+#menu-divider3{
+    position: relative;
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    top: 620px;
+}
+
+#course-menu{
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+
+}
+
+#course-menu h3{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#course-menu #courseMenu-list{
+    
+    display: flex;
+    height: 320px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#course-menu #courseMenu-list .courseMenu-opt{
+    width: 22%;
+    background-color: rgba(236, 236, 236, 0.726);
+    border-radius: 8%;
+}
+
+#course-menu #courseMenu-list .courseMenu-opt img{
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+
+#course-menu #courseMenu-list .courseMenu-opt p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+#course-menu #courseMenu-list .courseMenu-opt button{
+    /* margin-left: 65px; */
+    margin-left: 3.6em;
+    /* margin-top: 10px; */
+    margin-top: 0.5em;
+    padding: 0.5em 3.1em;
+    /* padding: 10px 60px; */
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(212, 20, 20);
+    color: white;
+    font-weight: bold;
+    /* font-size: 18px; */
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.1s;
+    
+}
+
+#drinks-menu{
+    position: relative;
+    top: 510px;
+    width: 95%;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+#drinks-menu h3{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#drinks-menu #drinksMenu-list{
+    
+    display: flex;
+    height: 320px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#drinks-menu #drinksMenu-list .drinks-opt{
+    width: 22%;
+    background-color: rgba(236, 236, 236, 0.726);
+    border-radius: 8%;
+}
+
+#drinks-menu #drinksMenu-list .drinks-opt img{
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+#drinks-menu #drinksMenu-list .drinks-opt p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+#drinks-menu #drinksMenu-list .drinks-opt button{
+    /* margin-left: 65px; */
+    margin-left: 3.6em;
+    /* margin-top: 10px; */
+    margin-top: 0.5em;
+    padding: 0.5em 3.1em;
+    /* padding: 10px 60px; */
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(212, 20, 20);
+    color: white;
+    font-weight: bold;
+    /* font-size: 18px; */
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.1s;
+    
+}
+
+#pay{
+    
+    display: inline;
+    position: relative;
+    top: 650px;
+    padding-bottom: 400px;
+}
+
+#pay button{
+    /* position: relative; */
+    display: block;
+    width: 160px;
+    margin: auto;
+    padding: 12px 5px 12px 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(204, 30, 30);
+    font-family: 'Roboto';
+    color: white;
+    font-size: large;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+#starters-menu #menu-list .menu-opt button:hover{
+    background-color: white;
+    border: 1px solid rgb(212, 20, 20);
+    color: black;
+    box-shadow: 1px 2px 15px 2px red;
+}
+
+#course-menu #courseMenu-list .courseMenu-opt button:hover{
+    background-color: white;
+    border: 1px solid rgb(212, 20, 20);
+    color: black;
+    box-shadow: 1px 2px 15px 2px red;
+}
+
+#drinks-menu #drinksMenu-list .drinks-opt button:hover{
+    background-color: white;
+    border: 1px solid rgb(212, 20, 20);
+    color: black;
+    box-shadow: 1px 2px 15px 2px red;
+    
+}
+
+    
